@@ -1,5 +1,5 @@
-import { toHaveDescription } from "@testing-library/jest-dom/dist/matchers";
 import React from "react";
+import HornedBeasts from "./HornedBeasts";
 
 class Main extends React.Component {
     render() {
@@ -16,22 +16,6 @@ class Main extends React.Component {
                 description= "Parent rhino with two babies"
                 />
             </>
-        )
-    }
-}
-
-class HornedBeasts extends React.Component {
-    render() {
-        return(
-        <>
-            <h2>{this.props.title}</h2>
-            <img 
-            src={this.props.imageUrl}
-            alt={this.props.description}
-            title={this.props.title}
-            />
-            <p>{this.props.description}</p>
-        </>
         )
     }
 }
