@@ -1,14 +1,36 @@
 # React State and Props
 
-Number and name of feature: 
+## Feature #1: Display Images
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 3 hr
 
-Start time: 
+Start time: 1 pm
 
-Finish time: 
+Finish time: 3:30 pm
 
-Actual time needed to complete: 
+Actual time needed to complete: 2.5 hrs
+
+## Feature #2: Allow Users to Favorite Individual Beasts
+
+Estimate of time needed to complete: 3 hr
+
+Start time: 3:50 pm
+
+Finish time: 6:30 pm
+
+Actual time needed to complete: 2.5 hrs
+
+## Feature 3: Bootstrap
+
+Estimate of time needed to complete: 3 hr
+
+Start time: 6:30 pm
+
+Finish time: 9 pm
+
+Actual time needed to complete: 3 hrs
+
+---
 
 # Passing Functions in Props
 
@@ -21,6 +43,8 @@ Start time:
 Finish time: 
 
 Actual time needed to complete: 
+
+---
 
 # Deploy and Extend Your Portfolio
 
