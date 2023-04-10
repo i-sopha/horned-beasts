@@ -2,7 +2,7 @@ import { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import HornedBeast from './beasts';
+import HornedBeast from './HornedBeast';
 import beasts from './images.json';
 
 class Main extends Component {
