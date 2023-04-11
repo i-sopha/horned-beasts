@@ -20,7 +20,12 @@ class ImageFav extends Component {
   
     render() {
       return (
-        <Button onClick={this.handleClick} variant='danger'><HeartFill></HeartFill> <span>Favorite: {this.state.timesClicked}</span></Button>
+        
+        <Button onClick={this.handleClick} variant='danger'>
+          <HeartFill></HeartFill> 
+          <span>Favorite: {this.state.timesClicked}</span>
+        </Button>
+
       )
     }
   

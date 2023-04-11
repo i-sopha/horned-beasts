@@ -15,7 +15,12 @@ class Main extends Component {
                         {beasts.map(beast => {
                         return (
                             <Col xs={4}>
-                            <HornedBeast key={beast._id} title={beast.title} imageUrl={beast.image_url} description={beast.description} />
+                            <HornedBeast 
+                            key={beast._id} 
+                            title={beast.title} 
+                            imageUrl={beast.image_url} 
+                            description={beast.description} 
+                            />
                             </Col>
                         )
                         })
