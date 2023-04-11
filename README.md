@@ -38,11 +38,11 @@ Actual time needed to complete: 3 hrs
 
 Estimate of time needed to complete: 5 hrs
 
-Start time: 3 pm
+Start time: 1 pm
 
-Finish time: 7:45 pm
+Finish time: 9 pm
 
-Actual time needed to complete: 4.5 hrs
+Actual time needed to complete: 8 hrs
 
 ---
 
