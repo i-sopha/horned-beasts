@@ -1,6 +1,6 @@
 # React State and Props
 
-## Feature #1: Display Images
+## Feature 1: Display Images
 
 Estimate of time needed to complete: 3 hr
 
@@ -10,7 +10,7 @@ Finish time: 3:30 pm
 
 Actual time needed to complete: 2.5 hrs
 
-## Feature #2: Allow Users to Favorite Individual Beasts
+## Feature 2: Allow Users to Favorite Individual Beasts
 
 Estimate of time needed to complete: 3 hr
 
@@ -34,6 +34,8 @@ Actual time needed to complete: 3 hrs
 
 # Passing Functions in Props
 
+## Feature 1: Display a Modal
+
 Number and name of feature: 
 
 Estimate of time needed to complete: 
@@ -47,6 +49,8 @@ Actual time needed to complete:
 ---
 
 # Deploy and Extend Your Portfolio
+
+## Feature 1: Filter by Numbers of Horns
 
 Number and name of feature: 
 
