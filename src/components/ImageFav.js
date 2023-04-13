@@ -2,6 +2,7 @@ import { Component } from "react";
 import Button from 'react-bootstrap/Button';
 import { HeartFill } from 'react-bootstrap-icons';
 
+// function stays outside of render because render is what you want to be seen on screen
 class ImageFav extends Component {
     constructor(props) {
       super(props);
