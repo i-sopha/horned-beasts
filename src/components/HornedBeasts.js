@@ -6,11 +6,11 @@ import ImageFav from './ImageFav';
 
 class HornedBeasts extends Component {
   render() {
-
+    console.log(this.props);
     return (
 
       <Container className="mt-3 mb-3">
-        <Card style={{ width: '18rem' }} border="danger" borderWidth="20px" className="shadow-lg">
+        <Card style={{ width: '18rem' }} border="danger" className="shadow-lg">
 
           <Card.Img 
             variant="top" 
