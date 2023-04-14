@@ -9,12 +9,12 @@ import HornedBeasts from './HornedBeasts';
 // Could we still import data.json without using props ? so instead we would put 'data: {Data}' ? 
 class Main extends Component {
 
-  constructor(props) {
-      super(props);
-      this.state = {
-          data: this.props.data,
-      };
-  }
+//   constructor(props) {
+//       super(props);
+//       this.state = {
+//           data: this.props.data,
+//       };
+//   }
 
 
   // map() METHOD is used to loop over objects created from HornedBeasts
@@ -28,10 +28,11 @@ class Main extends Component {
   // The handleOpen and getSelectedMethod props are also passed to the HornedBeasts component and are methods defined in the parent component - App - that can be used to update its state.
   
   render() {
+    console.log(this.props);
       return (
         <Container>
             <Row>
-                {this.state.data.map(beast => {
+                {this.props.filteredHorn.map(beast => {
                     return (
                         <Col xs={4} key={beast.title}>
                             <HornedBeasts 

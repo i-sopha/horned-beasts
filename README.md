@@ -50,12 +50,10 @@ Actual time needed to complete: 8 hrs
 
 ## Feature 1: Filter by Numbers of Horns
 
-Number and name of feature: 
+Estimate of time needed to complete: 5 hrs
 
-Estimate of time needed to complete: 
+Start time: 1
 
-Start time: 
+Finish time: 5:30 pm
 
-Finish time: 
-
-Actual time needed to complete: 
+Actual time needed to complete: 4.5 hrs

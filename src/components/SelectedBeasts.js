@@ -6,11 +6,6 @@ import Button from 'react-bootstrap/Button';
 // Where's my onClick for images!?!?!?
 class SelectedBeasts extends Component {
 
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {};
-    // }
-
     render() {
         return (
             <Modal show={this.props.show} onHide={this.props.handleClose}>

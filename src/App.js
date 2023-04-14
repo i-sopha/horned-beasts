@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
 import Data from './components/data.json';
+import { Form } from 'react-bootstrap';
 import SelectedBeasts from './components/SelectedBeasts';
 // import HornedBeasts from './components/HornedBeasts';
 // Why get an error if HornedBeasts is uncommented?
@@ -21,7 +22,8 @@ class App extends Component {
       show: false,
       title: '',
       src: '',
-      description: ''
+      description: '',
+      filteredHorn: Data
     };
   }
 
@@ -56,17 +58,53 @@ class App extends Component {
     this.handleOpen();
   };
 
+//Filter
+  filterNumOfHorns = (event) => {
+
+    event.preventDefault();
+    let horns = event.target.value;
+
+    let filterData = Data.filter((item) => {
+      if (item.horns === parseInt(horns)) {
+        return true;
+      } else {
+        return false;
+      }
+    });
+
+    this.setState({
+      filteredHorn: filterData
+    });
+    console.log(filterData);
+    console.log(typeof horns);
+  };
+
+
+
+
 // Retruning HTML elements for components
 // Main and Selectedbeasts RECEIVING props
 // 'this' - instance of App component - can access methods and properties
   render() {
-    return (
+    console.log(this.state);
+      return (
       <div className="App">
 
-        <Header heading="Magical Horned Beasts" />
+        <Header />
+
+        <Form.Label>Select</Form.Label>
+        <Form.Select aria-label="Default select example" onChange={this.filterNumOfHorns} >
+
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+          <option value="100">100</option>
+        </Form.Select>
+
+        <Form />
 
         <Main
-          data={Data}
+          filteredHorn={this.state.filteredHorn}
           handleOpen={this.handleOpen}
           getSelectedMethod={this.getSelectedMethod}
         />
